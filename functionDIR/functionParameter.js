@@ -29,8 +29,7 @@ function sum(...numbers) {
     return result;
 }
 
-console.log(sum(1, 2, 3, 4, 5));
-
+console.log(sum(1, 2, 3, 4, 5))
 
 
 

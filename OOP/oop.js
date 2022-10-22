@@ -8,3 +8,5 @@ const mail = {
 console.log(mail.from);
 mail.sendMessage('apakabar', 'penerima@dicoding.com');
  
+// pengirim@dicoding.com
+// you send: apakabar to penerima@dicoding.com from pengirim@dicoding.com
