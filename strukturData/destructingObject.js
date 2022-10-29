@@ -8,6 +8,8 @@ const {firstName, lastName, age} = profile;
  
 console.log(firstName, lastName, age);
 
+// 
+
 const profil = {
     firstName: "John",
     lastName: "Doe",
