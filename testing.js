@@ -1,10 +1,8 @@
-const mail = {
-    from: "pengirim@dicoding.com",
-    sendMessage: function (msg, to) {
-        console.log(`you send: ${msg} to ${to} from ${this.from}`);
+try {
+    const arr = [1, 2, 3, 4];
+    for (let i = 0; i <= 4; i++) {
+        console.log(arr[i]);
     }
-};
- 
-console.log(mail.from);
-mail.sendMessage('apakabar', 'penerima@dicoding.com');
- 
+} catch(e) {
+    console.log("Out of bounds");
+}
